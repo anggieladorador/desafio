@@ -1,6 +1,8 @@
 $primary: #009BD9;
 $gris: #D6DDDF;
 $gris-6: #F7FAFB;
+$neutro-gris-2:#5A6366;
+$neutro-gris-5:#D6DDDF;
 
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
@@ -12,17 +14,17 @@ $gris-6: #F7FAFB;
 .form-control, .form-select {
     font-size: 14px;
     font-weight: 400;
-    color:#5A6366;
+    color:$neutro-gris-2;
 }
 
 .form-control:disabled{
-    color:#5A6366;
-    background-color: #D6DDDF;
+    color:$neutro-gris-2;
+    background-color:$neutro-gris-5;
 }
 label{
     font-size: 14px;
     font-weight: 600;
-    color:#5A6366;
+    color:$neutro-gris-2;
 }
 .btn{
     border-radius: 18px;
@@ -81,6 +83,7 @@ label{
 .modal-title{
     font-size: 16px;
     font-weight: 600;
+    color:$neutro-gris-2;
 }
 
 .modal-form{
