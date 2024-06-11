@@ -8,15 +8,21 @@ $gris-6: #F7FAFB;
 * {
     font-family: Nunito;
   }
+
 .form-control, .form-select {
     font-size: 14px;
     font-weight: 400;
     color:#5A6366;
 }
 
+.form-control:disabled{
+    color:#5A6366;
+    background-color: #D6DDDF;
+}
 label{
     font-size: 14px;
     font-weight: 600;
+    color:#5A6366;
 }
 .btn{
     border-radius: 18px;
