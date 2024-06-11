@@ -1,0 +1,87 @@
+$primary: #009BD9;
+$gris: #D6DDDF;
+$gris-6: #F7FAFB;
+
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: Nunito;
+  }
+.form-control, .form-select {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+label{
+    font-size: 14px;
+    font-weight: 400;
+}
+.btn{
+    border-radius: 18px;
+    padding: 8px 12px;
+    min-width: 75px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn:hover{
+    color:  white;
+}
+
+.btn:active{
+    color: white !important;
+}
+
+.btn-primary {
+    color: #fff;
+    font-weight: bold;    
+}   
+
+.btn-light{
+    color: $primary;
+    border: 1px solid $primary;
+    background-color: white;
+}
+
+.modal-content{
+    box-shadow:  1.663px 8px 0px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+.modal-header{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 0;
+    padding: 0px 0px 16px 0px
+}      
+
+.modal-footer{
+    border-top: 0;
+    display: grid;
+    gap: 12px;
+    justify-content: end;
+    grid-template-columns: auto auto;
+}
+
+.modal-body{
+    border-top: 1px solid $gris ;
+    border-bottom: 1px solid $gris;
+    padding:0;
+}
+
+.modal-title{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.modal-form{
+    display: grid;
+    gap:12px;
+    padding: 12px 0;
+}
+.fixed-textarea{
+    resize: none;
+}
+
