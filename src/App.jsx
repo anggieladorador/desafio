@@ -71,8 +71,7 @@ const PermissionForm = ()=>{
         <Form.Control
           className='fixed-textarea'
           as="textarea"
-          placeholder="Leave a comment here"
-          style={{ height: '100px' }}
+          style={{ height: '56px' }}
         />
         </Col> 
       </Row>
